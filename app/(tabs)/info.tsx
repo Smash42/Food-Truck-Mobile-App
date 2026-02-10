@@ -3,7 +3,7 @@ import { Text, View } from "react-native";
 
 const info = () => {
   return (
-    <View className="flex-1 items-center bg-green-100">
+    <View className="flex-1 items-center bg-emerald-100">
       <Text className="text-5xl font-bold  mt-20">Smashing Fins</Text>
       <Text className="text-2xl font-bold mt-10"> Hours: </Text>
       <Text className="text-lg"> Monday - Friday: 11am - 8pm </Text>

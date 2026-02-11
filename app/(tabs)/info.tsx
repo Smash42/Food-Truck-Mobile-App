@@ -1,3 +1,4 @@
+import { Link } from "expo-router";
 import React from "react";
 import { Text, View } from "react-native";
 
@@ -12,6 +13,13 @@ const info = () => {
 
       <Text className="text-2xl font-bold mt-10"> Location: </Text>
       <Text className="text-lg"> 123 Main Street, Anytown, USA </Text>
+
+      <Link href="/" className="text-lg font-bold text-blue-600 mt-6">
+        Back to the Home Page!
+      </Link>
+      <Link href="/menu" className="text-lg font-bold text-blue-600 mt-6">
+        See our Menu!
+      </Link>
     </View>
   );
 };

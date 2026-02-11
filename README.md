@@ -1,50 +1,20 @@
-# Welcome to your Expo app 👋
+# Welcome to Smashing Fins Food Truck
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Using React Native with Expo and Tailwindcss we are able to create a fully customizable mobile app for a Food Truck. This project gives you the food trucks home screen, menu page, quick info page, and a search page coming soon. There are featured items on the home screen, which are the most popular main dishes people order. We have kept a clean look, and customized the background color for elegance. The loading Icon has been updated to show a custom image for the specific food truck.
+
+## Routing Method: File-Basing Routing
+
+- The file within the app, or tabs, folder is representing my route. The file name is the URL. i.e. "/menu" is the url route for the menu.tsx file
+- I used both the Link and TabBars types for the navigation throughout my different routes.
+
+## Challenge
+
+- One challenge I faced was that my project was not compiling at first when the NativeWind TailwindCss installs were introduces.
+- Once I was able to have my app compile, the Tailwindcss styles were not appearing. After extensive research and trial and errors I was able to have them work again.
+- As you can see I am still working on getting icons in the tab bar to associate with each path it leads to
 
 ## Get started
 
-1. Install dependencies
+Start the app
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npx expo start
